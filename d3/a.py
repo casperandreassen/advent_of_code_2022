@@ -10,9 +10,6 @@ with open (os.getcwd() + "/d3/input.txt") as input:
         rucksack = line.rstrip()
         comp1 = rucksack[0: len(rucksack) // 2]
         comp2 = rucksack[len(rucksack) // 2: len(rucksack)]
-        print(rucksack)
-        print(comp1)
-        print(comp2)
         for c in comp1:
             if c in comp2:
                 if c.isupper():
