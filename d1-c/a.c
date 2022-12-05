@@ -34,7 +34,7 @@ int main()
             current += atoi(line);
         }
     }
-    printf("%d\n", biggestCarrier);
+    printf("The elf that carries the most calories carries [%d] calories\n", biggestCarrier);
 
     fclose(fp);
     if (line)
